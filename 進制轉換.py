@@ -1,0 +1,7 @@
+a=int(input('輸⼊⼀個⼗進制數字:'))
+b=bin(a)
+c=oct(a)
+d=hex(a)
+print('二進制:''{:08b}'.format(a,'b'))
+print('八進制:''{:03o}'.format(a,'o'))
+print('十六進制:''{:02x}'.format(a,'x'))
